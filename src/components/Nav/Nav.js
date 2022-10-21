@@ -2,6 +2,7 @@
 import "./Nav.css"
 import NavItem from "../NavItem/NavItem"
 import Logo from '../Logo/Logo'
+import ShoppingBag from '../ShoppingBag/ShoppingBag'
 
 const Nav = () => {
     const navItems = [
@@ -29,14 +30,17 @@ const Nav = () => {
 
 
     return (
-        <div>
-            <nav className="Nav">
-                <div>
-                    <Logo />
-                </div>
+
+        <nav className="Nav">
+            <Logo />
+            <div className="navItemsWrapper">
                 {navItems.map(el => <NavItem key={el.id} title={el.title} />)}
-            </nav>
-        </div>
+            </div>
+            <div className="shoppingBagIcon">
+        
+                <ShoppingBag />
+            </div>
+        </nav>
     )
 }
 

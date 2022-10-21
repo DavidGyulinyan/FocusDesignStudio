@@ -4,7 +4,7 @@ const NavItem = (props) => {
    
     return (
         <div className="NavItems">
-            <div key={props.id}>{props.title}</div>
+        <a href="#" key={props.id}>{props.title}</a>
         </div>
     )
 }

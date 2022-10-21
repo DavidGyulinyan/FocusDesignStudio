@@ -1,16 +1,25 @@
 import "./Header.css"
 import Nav from "../Nav/Nav"
-// const h1Style= {
-//     color:"red",
-//     textAlign:"center",
-// }
 
 const Header = () => {
 
     return (
-        <div className="Header">
+        <header className="Header">
             <Nav />
-        </div>
+
+            <div className="center">
+                <div className="caption">
+                    <h1 className="heading">
+                        Make Your Interior More Minimaistic & Modern
+                    </h1>
+                    <p className="slogan">
+                        Bringing interiors to life, understanding the person or people living in a home is far greater need in design.
+                    </p>
+                </div>
+
+                
+            </div>
+        </header>
     )
 }
 
