@@ -2,10 +2,14 @@ import './ShoppingBag.css'
 import icon from './icon/shoppingBagIcon.svg'
 
 function ShoppingBag() {
-    return(
+    return (
 
         <div className="ShoppingBag">
-            <img src={icon} alt="shoppingBagIcon.svg" />
+            <form action="">
+                <a href="#">
+                    <img src={icon} alt="shoppingBagIcon.svg" />
+                </a>
+            </form>
         </div>
     )
 }

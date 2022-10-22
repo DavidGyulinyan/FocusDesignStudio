@@ -2,9 +2,11 @@ import './Logo.css'
 
 function Logo() {
     return (
-            <div className="Logo">
-                <span>FocusDesign</span>
-            </div>
+        <div className="Logo">
+            <form action="">
+                <a href="">FocusDesign</a>
+            </form>
+        </div>
     )
 }
 

@@ -1,5 +1,6 @@
 import "./Header.css"
 import Nav from "../Nav/Nav"
+import SearchInput from '../SearchInput/SearchInput'
 
 const Header = () => {
 
@@ -15,10 +16,10 @@ const Header = () => {
                     <p className="slogan">
                         Bringing interiors to life, understanding the person or people living in a home is far greater need in design.
                     </p>
+                    <SearchInput />
                 </div>
 
-                
-            </div>
+                </div>
         </header>
     )
 }
